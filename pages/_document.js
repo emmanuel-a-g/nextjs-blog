@@ -6,14 +6,16 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
-          <body>
-            <Main />
-            <NextScript />
-            <div id="notifications"></div>
-          </body>
+        <Head>
+          <link rel="shortcut icon" href="/static/emmanuel.ico" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+          <div id="notifications"></div>
+        </body>
       </Html>
     );
   }
 }
-export default MyDocument; 
+export default MyDocument;
