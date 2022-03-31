@@ -105,7 +105,7 @@ function ContactForm() {
           ></textarea>
         </div>
         <div className={classes.actions}>
-          <button>Send Message</button>
+          <button>Send Message to Emmanuel !</button>
         </div>
       </form>
       {notification && (
