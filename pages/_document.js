@@ -7,7 +7,14 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="shortcut icon" href="/static/emmanuel.ico" />
+          <link rel="icon" href="/favicon.ico"/>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
+          <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet"/>
         </Head>
         <body>
           <Main />

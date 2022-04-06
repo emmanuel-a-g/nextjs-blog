@@ -26,15 +26,30 @@
 }
 
 .hero h1 {
+  font-family: 'Nunito Sans', sans-serif;
   font-size: var(--size-16);
   margin: var(--size-4) 0;
   color: var(--color-grey-300);
 }
 
+.hero h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: var(--size-6);
+  margin: var(--size-4) 0;
+  color: var(--color-grey-300);
+}
+
 .hero p {
+  font-family: 'Nunito Sans', sans-serif;
   font-size: var(--size-6);
   color: var(--color-grey-200);
   width: 90%;
   max-width: 40rem;
   margin: auto;
+  text-align: center;
+}
+
+.hero div {
+  display: flex;
+  justify-content: space-evenly;
 }

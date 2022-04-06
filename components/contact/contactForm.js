@@ -11,14 +11,14 @@ function ContactForm() {
   useEffect(() => {
     if (notification === "success" || notification === "error") {
       let timer = setTimeout(() => {
-        setNotification(null)
-        setError(null)
-      }, 3000)
+        setNotification(null);
+        setError(null);
+      }, 3000);
       return () => {
-        clearTimeout(timer)
-      }
+        clearTimeout(timer);
+      };
     }
-  }, [notification])
+  }, [notification]);
 
   async function formHandler(e) {
     e.preventDefault();
@@ -36,9 +36,9 @@ function ContactForm() {
         throw new Error(data.message || "Something went wrong");
       }
       setNotification("success");
-      setEmail("")
-      setName("")
-      setText("")
+      setEmail("");
+      setName("");
+      setText("");
     } catch (err) {
       setNotification("error");
       setError(err.message);
@@ -69,7 +69,7 @@ function ContactForm() {
 
   return (
     <section className={classes.contact}>
-      <h1>How Can I help You?</h1>
+      <h1>Contact Me</h1>
       <form className={classes.form} onSubmit={formHandler}>
         <div className={classes.controls}>
           <div className={classes.control}>
@@ -105,9 +105,14 @@ function ContactForm() {
           ></textarea>
         </div>
         <div className={classes.actions}>
-          <button>Send Message to Emmanuel !</button>
+          <button>Send Message</button>
         </div>
       </form>
+      <h2>
+      See Resume: <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vQ0gHRDABIHb4v7LB_LRJII3mfFYVUgIwTHyBGrzk7uOKYo1Pw_OsZKlkTIxKDadAOd6VpPLgU1eDLN/pub" target="_blank">
+      Emmanuel's Resume
+      </a>
+    </h2>
       {notification && (
         <Notification
           status={notificationData.status}

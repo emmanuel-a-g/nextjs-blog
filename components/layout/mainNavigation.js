@@ -17,6 +17,9 @@ function MainNavigation() {
               <Link href="/posts">Posts</Link>
             </li>
             <li>
+            <Link href="/apps">My Apps</Link>
+          </li>
+            <li>
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
