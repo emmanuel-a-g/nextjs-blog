@@ -5,7 +5,7 @@
     var(--color-grey-900),
     var(--color-grey-800)
   );
-  padding: var(--size-8) 0;
+  padding: var(--size-6) 0;
 }
 
 .image {
@@ -52,4 +52,11 @@
 .hero div {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  .hero span {
+    margin: 4%;
+  }
 }
