@@ -47,7 +47,15 @@ function Hero() {
         </span>
         <span>
           <Image
-            src="/static/nodejs.png"
+            src="/static/express.png"
+            width="100%"
+            height="100%"
+            alt="Express.js logo"
+          />
+        </span>
+        <span>
+          <Image
+            src="/static/node.png"
             width="100%"
             height="100%"
             alt="Node.js logo"
