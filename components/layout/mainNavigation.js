@@ -13,13 +13,13 @@ function MainNavigation() {
         </Link>
         <nav>
           <ul>
-            <li>
+            <li className="navItem">
               <Link href="/posts">Posts</Link>
             </li>
-            <li>
+            <li className="navItem">
             <Link href="/apps">My Apps</Link>
           </li>
-            <li>
+            <li className="navItem">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
