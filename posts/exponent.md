@@ -13,8 +13,6 @@ Expwnent is a web application for tournament organizers and players to meet and 
 
 This application was built with pride by a team of eight full stack software engineers from the Hack Reactor Austin campus, 51st Cohort (HRATX51).
 
-Expwnent was built primarily with ReactJS on the front end and Node/Express/MongoDB on the backend. Other key technologies used are listed below:
-
 Some of the technologies used for this application are: 
 * Frontend: React, React-Router, Material UI, Formik
 * Backend: Node, Express, MongoDB
