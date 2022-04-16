@@ -49,6 +49,13 @@ function PostContent(props) {
       return (
         <SyntaxHighlighter style={atomDark} language={lang} children={children}/>
       )
+    },
+    a(props) {
+      return (
+        <a href={props.href} target="_blank" rel="noreferrer">
+          {props.children}
+        </a>
+      );
     }
   };
 

@@ -1,7 +1,7 @@
 ---
 title: "Amazon Clone"
 date: "2022-04-02"
-image: "amazon-logo.jpeg"
+image: "amazon-logo.png"
 excerpt: "Amazon is one of the top companies for online shopping and this clone mirrors a similar user experience, check it out!"
 isFeatured: true
 isApp: true
@@ -22,10 +22,9 @@ Some of the technologies used for this application are:
 
 ## Why build an Amazon Clone?
 
-Because it gives insight to what a small team of two software developers can do with the help of external api's, css,
-great knowledge of React, AWS, and Google's firebase authentication.
+This app shows what a team of two software devs can do with the deep understanding of external api's, css, html, a great knowledge of React, AWS, and finally Google's firebase authentication.
 
-These are some of things you can do with our Amazon Clone: 
+These are some of things you can do with Amazon Clone: 
 
 - Sign-In / Sign-Out
 - Buy/Remove products from cart
@@ -35,4 +34,4 @@ These are some of things you can do with our Amazon Clone:
 
 ## Amazon-Clone Home Page
 
-![Create routes via your file + folder structure](amazon.png)
+![amazon-image](amazon.png)
