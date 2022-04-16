@@ -15,7 +15,7 @@ function Hero() {
       </div>
       <h1>Hi, I'm Emmanuel</h1>
       <p>
-        I am web developer from El Paso TX, welcome to my personal website. I am
+        I am web developer native to El Paso TX, welcome to my personal website. I am
         open for new opportunities, please contact me in my contact page or
         through LinkedIn.
       </p>
