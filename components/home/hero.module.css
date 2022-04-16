@@ -16,6 +16,11 @@
   overflow: hidden;
   background-color: var(--color-grey-700);
   margin: auto;
+  opacity: 0.5;
+}
+
+.image:hover {
+  opacity: 1;
 }
 
 .image img {
