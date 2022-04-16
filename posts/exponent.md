@@ -9,9 +9,11 @@ isApp: true
 
 Expwnent can be found **[here](http://expwnent.com).**.
 
-Expwnent is a web application for tournament organizers and players to meet and engage in epic battle with the game of their choice. Click HERE to make your first tournament!
+Expwnent is a web application for tournament organizers and players to meet and engage in epic battle with the game of their choice. Click above to make your first tournament!
 
-This application was built with pride by a team of eight full stack software engineers from the Hack Reactor Austin campus, 51st Cohort (HRATX51).
+My Contribution: Bracket Tournament Developer & Implementation of API & Deployment to AWS! 
+
+This application was built with pride by a team of eight full stack software engineers from HRATX51.
 
 Some of the technologies used for this application are: 
 * Frontend: React, React-Router, Material UI, Formik
