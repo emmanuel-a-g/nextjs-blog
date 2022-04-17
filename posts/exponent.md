@@ -22,10 +22,7 @@ Some of the technologies used for this application are:
 * Dev Tools: Webpack, Babel
 * Other: Axios, AWS
 
-## Why build a tournament emulator?
-
-Because it gives insight to what a small team of two software developers can do with the help of external api's, css,
-great knowledge of React, AWS, and Google's firebase authentication.
+## What can you do in a tournament emulator?
 
 These are some of things you can do within Expwnent: 
 
