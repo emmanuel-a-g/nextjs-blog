@@ -5,6 +5,7 @@ image: "amazon-logo.png"
 excerpt: "Amazon is one of the top companies for online shopping and this clone mirrors a similar user experience, check it out!"
 isFeatured: true
 isApp: true
+isPost: false
 ---
 
 Our Amazon Clone can be found **[here](http://twoamazon.com).**.

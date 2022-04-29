@@ -51,7 +51,7 @@ function AllPostsPage(props) {
 export default AllPostsPage;
 
 export function getStaticProps() {
-  const allPosts = getAllPosts();
+  const allPosts = getAllPosts(true);
 
   return {
     props: {

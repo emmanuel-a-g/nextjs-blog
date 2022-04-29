@@ -5,6 +5,7 @@ image: "exponent.png"
 excerpt: "Expwnent is an online tournament maker! You can visualize and create match ups all the within!"
 isFeatured: true
 isApp: true
+isPost: false
 ---
 
 Expwnent can be found **[here](http://expwnent.com).**.

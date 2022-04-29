@@ -4,6 +4,8 @@ date: "2021-10-16"
 image: "getting-started-nextjs.png"
 excerpt: "This app was build with NextJS, a React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR."
 isFeatured: true
+isPost: true
+isApp: false
 ---
 
 NextJS is a **framework for ReactJS**.

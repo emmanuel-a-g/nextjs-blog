@@ -15,49 +15,49 @@ function Hero() {
       </div>
       <h1>Hi, I'm Emmanuel</h1>
       <p>
-        I am web developer native to El Paso TX, welcome to my personal website. I am
-        open for new opportunities, please contact me in my contact page or
-        through LinkedIn.
+        Welcome to my blog! Here you can find new technologies I am currently learing
+        and a consequential a short blog post about it. Additionally, here you can also
+        find some of the apps I've created and a way to contact me!
       </p>
-      <h2>-Tech Stack-</h2>
+      <h2> - Tech Stack - </h2>
       <div className={classes.hero}>
         <span>
           <Image
             src="/static/js.png"
-            width="100%"
-            height="100%"
+            width={64}
+            height={64}
             alt="Javascript logo"
           />
         </span>
         <span>
           <Image
             src="/static/react.png"
-            width="100%"
-            height="100%"
+            width={74}
+            height={74}
             alt="React logo"
           />
         </span>
         <span>
           <Image
             src="/static/mongodb.png"
-            width="100%"
-            height="100%"
+            width={64}
+            height={64}
             alt="Mongo Database logo"
           />
         </span>
         <span>
           <Image
             src="/static/express.png"
-            width="100%"
-            height="100%"
+            width={64}
+            height={64}
             alt="Express.js logo"
           />
         </span>
         <span>
           <Image
             src="/static/node.png"
-            width="100%"
-            height="100%"
+            width={64}
+            height={64}
             alt="Node.js logo"
           />
         </span>
