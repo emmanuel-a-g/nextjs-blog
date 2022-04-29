@@ -32,6 +32,10 @@
   color: var(--color-grey-200);
 }
 
+.nav {
+  display: flex;
+}
+
 @media (min-width: 768px) {
   .header ul {
     gap: 0.5rem;

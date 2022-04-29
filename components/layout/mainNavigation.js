@@ -1,17 +1,16 @@
 import Logo from "./logo";
 import Link from "next/link";
-import { Fragment } from "react";
 import classes from "./mainNavigation.module.css"
+
 function MainNavigation() {
   return (
-    <Fragment>
       <header className={classes.header}>
         <Link href="/">
           <a>
             <Logo />
           </a>
         </Link>
-        <nav>
+        <nav className={classes.nav}>
           <ul>
             <li className="navItem">
               <Link href="/posts">Posts</Link>
@@ -25,7 +24,6 @@ function MainNavigation() {
           </ul>
         </nav>
       </header>
-    </Fragment>
   );
 }
 

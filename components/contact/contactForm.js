@@ -108,11 +108,13 @@ function ContactForm() {
           <button>Send Message</button>
         </div>
       </form>
-      <h2>
-      See Resume: <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vQ0gHRDABIHb4v7LB_LRJII3mfFYVUgIwTHyBGrzk7uOKYo1Pw_OsZKlkTIxKDadAOd6VpPLgU1eDLN/pub" target="_blank">
-      Emmanuel's Resume
-      </a>
-    </h2>
+      <h2 style={{ textAlign: "center" }}>
+        See Resume: <a
+          href="https://docs.google.com/document/u/1/d/e/2PACX-1vQ0gHRDABIHb4v7LB_LRJII3mfFYVUgIwTHyBGrzk7uOKYo1Pw_OsZKlkTIxKDadAOd6VpPLgU1eDLN/pub"
+          target="_blank">
+          Emmanuel's Resume
+        </a>
+      </h2>
       {notification && (
         <Notification
           status={notificationData.status}

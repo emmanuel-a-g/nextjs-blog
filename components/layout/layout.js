@@ -1,13 +1,13 @@
-import { Fragment } from "react";
 import MainNavigation from "./mainNavigation";
 import Footer from '../footer/footer';
+import styles from "./layout.module.css";
 function Layout(props) {
   return (
-    <Fragment>
+    <div className={styles.layout}>
       <MainNavigation />
       <main>{props.children}</main>
       <Footer/>
-    </Fragment>
+    </div>
   );
 }
 export default Layout;
