@@ -1,7 +1,7 @@
 import AllPosts from "../../components/posts/allPosts";
 import { getAllPosts } from "../../lib/postsUtil";
-import { Fragment } from "react";
 import Head from "next/head";
+import Footer from "../../components/footer/footer";
 const dummy = [
   {
     title: "Getting Started with NextJS",
@@ -39,13 +39,13 @@ const dummy = [
 
 function AllPostsPage(props) {
   return (
-    <Fragment>
+    <div style={{all: "unset"}}>
       <Head>
         <title>My Posts</title>
         <meta name="description" content="A list of all my apllications" />
       </Head>
       <AllPosts posts={props.posts} />
-    </Fragment>
+    </div>
   );
 }
 export default AllPostsPage;

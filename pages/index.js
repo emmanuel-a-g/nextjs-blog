@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import Hero from "../components/home/hero";
 import FeaturedPosts from "../components/home/featuredPosts";
 import { getFeaturedPosts } from "../lib/postsUtil";
@@ -7,7 +6,7 @@ import Head from "next/head";
 function HomePage(props) {
   //API REQUEST WORKS TOO, BUT we want a fully pre-rendered page
   return (
-    <Fragment>
+    <div>
       <Head>
         <title>Emmanuel's Blog</title>
         <meta
@@ -17,7 +16,7 @@ function HomePage(props) {
       </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
-    </Fragment>
+    </div>
   );
 }
 
