@@ -1,7 +1,6 @@
 import AllPosts from "../../components/posts/allPosts";
 import { getAllPosts } from "../../lib/postsUtil";
 import Head from "next/head";
-import Footer from "../../components/footer/footer";
 const dummy = [
   {
     title: "Getting Started with NextJS",
