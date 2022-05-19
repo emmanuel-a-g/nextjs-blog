@@ -15,9 +15,7 @@ function Hero() {
       </div>
       <h1>Hi, I'm Emmanuel</h1>
       <p>
-        Welcome to my blog! Here you can find new technologies I am currently learing
-        and a consequential a short blog post about it. Additionally, here you can also
-        find some of the apps I've created and a way to contact me!
+        Welcome to my blog! Here you can find new technologies I am currently learing as well as a short post about it. Additionally, here are some of the apps I've created and a form to contact me!
       </p>
       <h2> - Tech Stack - </h2>
       <div className={classes.hero}>
