@@ -43,8 +43,8 @@ function MainNavigation() {
       <ul className={classes.navListMobile}>
         <li className={classes.hamburger} onClick={handleSideBar}>
           <img
-            src="./static/menu.png"
-            alt="menu icon, click to expand"
+            src="/menu.png"
+            alt="menu"
             height={24}
             width={24}
           />
